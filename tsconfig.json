@@ -1,12 +1,16 @@
 {
-    "files": [
-        "src/main.ts",
-        "src/lib.ts"
+    "include": [
+        "src/**/*.ts"
     ],
     "compilerOptions": {
-        "noImplicitAny": true,
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "module": "commonjs",
         "target": "es5",
-        "lib": ["dom","es2015"]        
+        "lib": [
+            "es2015",
+            "dom"
+        ]
     },
     "exclude": [
         "node_modules"

@@ -43,7 +43,7 @@ gulp.task('bower', () => {
  */
 gulp.task('clean', () => {
     return gulp.src('./dist/**/*')
-            .pipe(clean({force: true}));
+            .pipe(clean());
 });
 /**
  * Watch File Change

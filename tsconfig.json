@@ -1,0 +1,14 @@
+{
+    "files": [
+        "src/main.ts",
+        "src/lib.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es5",
+        "lib": ["dom","es2015"]        
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

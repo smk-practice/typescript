@@ -1,0 +1,44 @@
+{
+  "name": "typescript-gulp",
+  "version": "1.0.0",
+  "description": "typescript gulp practie",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "event-stream": "^4.0.1",
+    "glob": "^7.1.5",
+    "gulp": "^4.0.2",
+    "gulp-bower": "0.0.15",
+    "gulp-bower-normalize": "^1.1.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-runtask": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "gulp-watch": "^5.0.1",
+    "gulp-webserver": "^0.9.1",
+    "main-bower-files": "^2.13.3",
+    "node-sass": "^4.13.0",
+    "tinyify": "^2.5.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@types/bootstrap": "^4.3.1",
+    "@types/jquery": "^3.3.31",
+    "babel-preset-env": "^1.7.0",
+    "bootstrap": "^4.3.1",
+    "bower": "^1.8.8",
+    "browserify": "^16.5.0",
+    "gulp-concat": "^2.6.1",
+    "jquery": "^3.4.1",
+    "tsify": "^4.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

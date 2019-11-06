@@ -29,9 +29,5 @@ jspm_packages/
 dist/
 app/
 
-#Yarn NPM lock files
-/yarn.lock
-/package-lock.json
-
 #Ignore compiered js file
 /src/**/*.js

@@ -14,9 +14,6 @@ bower_components
 
 # Dependency directories
 node_modules/
-
-# Dependency directories
-node_modules/
 jspm_packages/
 
 # TypeScript cache
@@ -31,3 +28,4 @@ app/
 
 #Ignore compiered js file
 /src/**/*.js
+/src/**/*.map

@@ -1,4 +1,4 @@
-import * as faker from 'faker/locale/zh_TW';
+import * as faker from 'faker/locale/en';
 import * as fs from 'fs';
 
 export const createCustomers = (count: number) => {
@@ -27,5 +27,5 @@ export const createCustomers = (count: number) => {
 }
 
 (function() {
-    createCustomers(500);
+    createCustomers(50);
 })();

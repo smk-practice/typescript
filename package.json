@@ -27,7 +27,7 @@
     "gulp-webserver": "^0.9.1",
     "main-bower-files": "^2.13.3",
     "node": "^12.13.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "tinyify": "^2.5.1",
     "typescript": "^3.7.2"
   },
